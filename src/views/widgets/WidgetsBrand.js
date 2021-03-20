@@ -35,14 +35,14 @@ const WidgetsBrand = ({withCharts})=>{
 
     <CCol sm="6" lg="3">
       <CWidgetBrand
-        color="twitter"
-        rightHeader="973k"
+        color="facebook"
+        rightHeader="69k"
         rightFooter="followers"
         leftHeader="1.792"
         leftFooter="tweets"
       >
         <CIcon
-          name="cib-twitter"
+          name="cib-facebook"
           height="52"
           className="my-4"
         />
@@ -77,7 +77,7 @@ const WidgetsBrand = ({withCharts})=>{
           labels="months"
         />
       </CWidgetBrand>
-    </CCol> 
+    </CCol>
 
     <CCol sm="6" lg="3">
       <CWidgetBrand
@@ -102,7 +102,7 @@ const WidgetsBrand = ({withCharts})=>{
       </CWidgetBrand>
     </CCol>
   </CRow> :
-  
+
   <CRow>
     <CCol sm="6" lg="3">
       <CWidgetBrand
